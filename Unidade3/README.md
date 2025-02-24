@@ -148,12 +148,7 @@ public class Principal {
 
 ##### Lógico  
 
-![Lógico](imgs/TipoLogico.png "Lógico")  
-
-### Exercícios - Parte 1  
-
-- Responda o quiz no AVA3​.  
-- Acompanhe os exercício em sala​.  
+![Lógico](imgs/TipoLogico.png "Lógico")   
 
 ----------
 
