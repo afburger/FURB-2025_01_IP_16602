@@ -358,6 +358,9 @@ Nos métodos print pode ser feita a concatenação de textos e conteúdos de var
 
 ### Introdução a um Ambiente de Programação  
 
+#### [Configurando a IDE](IDE.md "Unidade 4")  
+#### [Desabilitando Hints do VS Code)](vscodeInlayHints.md "Desabilitando Hints 4")  
+
 - Para se escrever um programa em uma **linguagem** normalmente utiliza-se um **ambiente de programação**.​  
 - Um **ambiente de programação** concentra um conjunto de recursos que facilitam as etapas de construção de um programa na linguagem.​  
 - Os ambientes são comumente denominados de **IDE (Integrated Development Environment – Ambiente Integrado de Desenvolvimento)​**  
@@ -369,12 +372,7 @@ Nos métodos print pode ser feita a concatenação de textos e conteúdos de var
   - JBuilder​  
   - VSCode  
   - etc.​  
-
-### Exercícios - Parte 2  
-
-- Responda o quiz no AVA3​.  
-- Acompanhe os exercício em sala​.  
-
+ 
 ----------
 
 ### Principais Referências Bibliográficas​  
