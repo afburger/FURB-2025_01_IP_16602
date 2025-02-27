@@ -21,7 +21,7 @@ public class Principal {
         System.out.println("Digite o seu nome:");
         String nome = teclado.next();
 
-        System.out.println(nome);
+        System.out.println("Seja bem vindo: " + nome);
 
     }
 
