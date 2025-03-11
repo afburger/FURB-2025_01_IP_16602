@@ -1,9 +1,8 @@
 package unidade03.exercicios;
 
-import java.util.Scanner;
-
 /**
- * Descreva um programa que leia o comprimento dos catetos de um triângulo retângulo e calcule o comprimento da hipotenusa.
+ * Descreva um programa que leia o comprimento dos catetos de um triângulo retângulo 
+ * e calcule o comprimento da hipotenusa.
  * Fórmula:
  * hipotenusa^2 = cateto1^2 + cateto^2
  * 

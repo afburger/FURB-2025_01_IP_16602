@@ -16,6 +16,19 @@ import java.util.Scanner;
 public class Uni3Exe08 {
 
 	public static void main(String[] args) {
-		
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Informe a quantidade em dólares:");
+		double valorDolar = scan.nextDouble();
+
+		System.out.println("Informe a cotação do dia:");
+		double cotacao = scan.nextDouble();
+
+		scan.close();
+
+		double valorReal = valorDolar * cotacao;
+
+		System.out.println("O atendente deve devolver R$ "
+		+ valorReal + " para o cliente.");
 	}
 }

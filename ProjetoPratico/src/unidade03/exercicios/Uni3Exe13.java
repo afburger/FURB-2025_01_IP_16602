@@ -1,7 +1,5 @@
 package unidade03.exercicios;
 
-import java.util.Scanner;
-
 /**
  * Numa loja de materiais de construção, um azulejo estampado custa R$ 12,50. 
  * Faça um programa para ler o comprimento e altura de uma parede (em metros), 

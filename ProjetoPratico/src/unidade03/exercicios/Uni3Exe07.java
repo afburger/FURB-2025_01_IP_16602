@@ -19,6 +19,30 @@ import java.util.Scanner;
 public class Uni3Exe07 {
 
 	public static void main(String[] args) {
-		
+		final double conteudoLata = 350;
+		final double conteudoGarrafa = 600;
+		final double conteudoPet = 2000;
+
+		Scanner teclado = new Scanner(System.in);
+
+		System.out.println("Informe a quantidade de latas de 350ml:");
+		int quantidadeLata = teclado.nextInt();
+
+		System.out.println("Informe a quantidade de garrafas de 600ml:");
+		int quantidadeGarrafa = teclado.nextInt();
+
+		System.out.println("Informe a quantidade de garrafas de 2L:");
+		int quantidadePet = teclado.nextInt();
+
+		teclado.close();
+
+		double totalLata = quantidadeLata * conteudoLata;
+		double totalGarrafa = quantidadeGarrafa * conteudoGarrafa;
+		double totalPet = quantidadePet * conteudoPet;
+
+		double totalLitros = (totalLata + totalGarrafa + totalPet) / 1000;
+
+		System.out.println("O cliente comprou ao total " 
+		+ totalLitros + " litros.");
 	}
 }

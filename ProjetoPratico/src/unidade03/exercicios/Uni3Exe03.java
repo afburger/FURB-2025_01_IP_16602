@@ -15,6 +15,18 @@ import java.util.Scanner;
 public class Uni3Exe03 {
 
 	public static void main(String[] args) {
-		
+		Scanner teclado = new Scanner(System.in);
+
+		System.out.println("Informe o valor da gasolina:");
+		double precoCombustivel = teclado.nextDouble();
+
+		System.out.println("Informe o valor total do abastecimento:");
+		double valorPago = teclado.nextDouble();
+
+		teclado.close();
+
+		double litros = valorPago / precoCombustivel;
+
+		System.out.println("Você conseguiu abastecer " + litros + "L de combustível.");
 	}
 }

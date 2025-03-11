@@ -1,9 +1,9 @@
 package unidade03.exercicios;
 
-import java.util.Scanner;
 
 /**
- * Descreva um programa que dado uma temperatura em °C informe o seu valor em °F. Fórmula:
+ * Descreva um programa que dado uma temperatura em °C informe o seu valor em °F. 
+ * Fórmula:
  * 
  * °F = (9/5) °C + 32
  * 
