@@ -1,5 +1,4 @@
-package exercicios;
-
+package beecrowd;
 import java.util.Scanner;
 
 public class Main {

@@ -1,5 +1,3 @@
-package unidade04.exemplos;
-
 import java.util.Scanner;
 
 public class ExemploIfElse {
