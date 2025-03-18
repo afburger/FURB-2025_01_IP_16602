@@ -197,7 +197,7 @@ Para resolver este problema pode se utilizar do algoritmo descrito no fluxograma
 
 ----------
 
-### Uni4Exe15.java
+### Uni4Exe15.java (não é do tipo COMPOSTO)
 
 Elabore um algoritmo para exibir o valor de reajuste que um funcionário receberá no seu salário. A empresa irá conceder 5% de reajuste para o funcionário que for admitido há até de 12 meses. Para funcionário admitido entre 13 e 48 meses, irá conceder 7% de reajuste. O seu algoritmo deve solicitar ao usuário que digite a quantidade de meses que o funcionário foi admitido.  
 
@@ -209,7 +209,7 @@ Elabore um algoritmo para exibir o valor de reajuste que um funcionário receber
 
 ----------
 
-### Uni4Exe16.java
+### Uni4Exe16.java (não é do tipo COMPOSTO)
 
 Escreva um algoritmo que leia a idade de 2 homens e 2 mulheres (considere que a idade entre homens e mulheres sempre serão diferentes). Calcule e escreva a soma das idades do homem mais velho com a mulher mais nova, e o produto das idades do homem mais novo com a mulher mais velha.  
 
@@ -231,7 +231,7 @@ Para realizar o cálculo do Imposto de Renda a ser pago, é solicitado a renda a
 
 ----------
 
-### Uni4Exe18.java
+### Uni4Exe18.java (não é do tipo COMPOSTO)
 
 Uma loja que trabalha com crediário funciona da seguinte maneira: se o pagamento ocorre até o dia do vencimento, o cliente ganha 10% de desconto e é avisado que o pagamento está em dia. Se o pagamento é realizado até cinco dias após o vencimento o cliente perde o desconto, e se o pagamento atrasa mais de cinco dias, é cobrada uma multa de 2% por cada dia de atraso. Faça um algoritmo que leia o dia do vencimento, o dia do pagamento e o valor da prestação e calcule o valor a ser pago pelo cliente, exibindo as devidas mensagens. Suponha que todo vencimento ocorre até o dia dez de cada mês e os clientes nunca deixam para pagar no mês seguinte.  
 
@@ -257,12 +257,12 @@ Para resolver este problema pode se utilizar do algoritmo descrito no fluxograma
 | -------- | -------- |
 | X: 0 Y: 0 | Quadrante 0 |
 | X: 5 Y: 10 | Quadrante 1 |
-| X: -5 Y: 10 | Quadrante 2 |
+| X: 5 Y: -10 | Quadrante 2 |
 | X: -5 Y: -10 | Quadrante 3 |
-| X: 5 Y: -10 | Quadrante 4 |
+| X: -5 Y: 10 | Quadrante 4 |
 ----------
 
-### Uni4Exe20.java
+### Uni4Exe20.java (não é do tipo COMPOSTO)
 
 Dadas 3 notas obtidas por um aluno em 3 provas e a média dos exercícios, descreva um algoritmo que calcule a média de aproveitamento e o conceito do aluno, usando a fórmula:  
 
@@ -287,7 +287,7 @@ O algoritmo deve escrever a média de aproveitamento, o conceito correspondente 
 
 ----------
 
-### Uni4Exe21.java
+### Uni4Exe21.java (não é do tipo COMPOSTO)
 
 O índice de massa corporal (IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal. O IMC é determinado pela divisão da massa do indivíduo pelo quadrado de sua altura, onde a massa está em quilogramas e a altura está em metros, de acordo com a fórmula:  
 
