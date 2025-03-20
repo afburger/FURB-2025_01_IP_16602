@@ -1,3 +1,5 @@
+package unidade04.exemplos;
+
 public class ExemploIf002 {
 
     public static void main(String[] args) {
