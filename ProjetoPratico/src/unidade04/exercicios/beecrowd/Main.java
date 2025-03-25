@@ -1,4 +1,4 @@
-package beecrowd;
+package unidade04.exercicios.beecrowd;
 import java.util.Scanner;
 
 public class Main {
