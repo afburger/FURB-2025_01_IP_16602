@@ -9,6 +9,9 @@ public class Exemplo01Vetor {
         // Declaração 2 de vetor
         int vetorInt[] = new int[4];
 
+        // Forma de inicalizar já com valores;
+        int[] vetorInicializado = {1, 2, 3, 4, 5};
+
         vetorInteiro[0] = 1;
         vetorInteiro[2] = 3;
         vetorInteiro[1] = 2;

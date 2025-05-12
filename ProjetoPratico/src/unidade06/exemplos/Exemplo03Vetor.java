@@ -7,10 +7,6 @@ public class Exemplo03Vetor {
         
         int[] vetor = new int[qtd];
 
-
-        // Forma de inicalizar já com valores;
-        int[] vetorInicializado = {1, 2, 3, 4, 5};
-
         vetor[0] = 1;
         vetor[1] = 2;
         vetor[2] = 3;
