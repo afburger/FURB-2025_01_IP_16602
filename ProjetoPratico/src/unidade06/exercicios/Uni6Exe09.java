@@ -19,14 +19,20 @@ Utilize os conceitos aprendidos sobre vetores (ou mesmo o uso de matriz) e méto
 public class Uni6Exe09 {
 
     public static void main(String[] args) {
-        int qtdClientes = 3; // 30 clientes [30][ ]
+        // [sexo][nota][idade]
+        // [1][10][55]
+        // [1][8][23]
+        // [1][10][18]
+        // [2][5][30]
+        // [2][6][18]
+        int qtdClientes = 5; // 5 clientes [5][ ]
         int qtdRespostas = 3; // 3 respostas [ ][3] -> sexo, nota e idade
         int dados[][] = new int[qtdClientes][qtdRespostas];
 
         // Faz a leitura dos dados.
         Scanner teclado = new Scanner(System.in);
 
-        for (int i = 0; i < qtdClientes; i++) {
+        for (int i = 0; i < dados.length; i++) {
             System.out.println(" _ Informe os dados para o cliente [" + (i + 1) + "]");
             System.out.println("sexo (1=feminino 2=masculino): ");
             dados[i][0] = teclado.nextInt();

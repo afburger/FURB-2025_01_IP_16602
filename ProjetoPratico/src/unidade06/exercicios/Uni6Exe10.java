@@ -24,8 +24,7 @@ public class Uni6Exe10 {
 
         Scanner teclado = new Scanner(System.in);
         int vet[] = new int[50];
-        int posFim = 0; // posição no topo do vetor
-        System.out.println("\033[H\033[2J"); // limpa console
+        int posFim = 0; // posição no início ou topo do vetor
         int opcao;
         do {
             System.out.println(" ________ MENU ________");
@@ -70,7 +69,7 @@ public class Uni6Exe10 {
                     break;
 
                 case 3: // Alterar valor
-                    System.out.print(" valor pesquisa: ");
+                    System.out.print(" valor para alterar: ");
                     int valorPesquisaAlterar = teclado.nextInt();
                     boolean encontradoAlterar = false;
                     int posicaoEncontradaAlterar = -1;
@@ -128,13 +127,17 @@ public class Uni6Exe10 {
                     break;
 
                 case 6: // Ordenar valores
-                    int bolha;
-                    for (int i = 0; i < posFim - 1; i++) {
-                        if (vet[i] > vet[i + 1]) {
-                            bolha = vet[i];
-                            vet[i] = vet[i + 1];
-                            vet[i + 1] = bolha;
-                            i = -1;
+                    // Loop externo para controlar as passagens pelo array
+                    for (int idx = 0; idx < posFim - 1; idx++) {
+                        // Loop interno para comparações e trocas
+                        for (int j = 0; j < posFim - idx - 1; j++) {
+                            // Se o elemento atual for maior que o próximo elemento
+                            if (vet[j] > vet[j + 1]) {
+                                // Troca os elementos
+                                int temp = vet[j];
+                                vet[j] = vet[j + 1];
+                                vet[j + 1] = temp;
+                            }
                         }
                     }
                     System.out.println("_ valores ordenados.");
@@ -142,8 +145,11 @@ public class Uni6Exe10 {
 
                 case 7: // Inverter valores
                     int temp = 0;
+                    // Loop externo para controlar as passagens pelo array
                     for (int i = 0; i < posFim; i++) {
+                        // Loop interno para as trocas
                         for (int x = 0; x < i; x++) {
+                            // Troca os elementos
                             temp = vet[i];
                             vet[i] = vet[x];
                             vet[x] = temp;
