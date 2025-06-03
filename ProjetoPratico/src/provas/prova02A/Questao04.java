@@ -31,7 +31,7 @@ public class Questao04 {
             opcao = teclado.nextInt();
 
             switch (opcao) {
-                case 1: // Inserir
+                case 1: // Inserir um item
                     System.out.println("Informe o nome do item:");
                     String nome = teclado.next();
 
@@ -50,14 +50,14 @@ public class Questao04 {
 
                     break;
 
-                case 2:
+                case 2: // Imprimir itens da mochila
                     for (int idx = totalItens - 1; idx >= 0; idx--) {
                         System.out.println("Item: " + itensNomes[idx] +
                                             " Peso: " + itensPeso[idx]);
                     }
                     break;
 
-                case 3:
+                case 3: // Listar o item mais pesado
                     int maiorPeso = 0;
                     int idxMaioPeso = -1;
                     for (int i = 0; i < totalItens; i++) {
@@ -75,12 +75,14 @@ public class Questao04 {
                     }
                     break;
 
-                case 4:
+                case 4: // Ordenar mochila (do mais pesado para o mais leve)
                      // Loop externo para controlar as passagens pelo array
                     for (int idx = 0; idx < totalItens - 1; idx++) {
                         // Loop interno para comparações e trocas
                         for (int j = 0; j < totalItens - idx - 1; j++) {
-                            // Se o elemento atual for maior que o próximo elemento
+                            // Se o elemento atual for menor que o próximo elemento
+                            // Se quiser em ordem descrescente compara com < (Menor)
+                            // Se quiser em ordem crescente compara com > (Maior)
                             if (itensPeso[j] < itensPeso[j + 1]) {
                                 // Troca os pesos
                                 int tempPeso = itensPeso[j];
@@ -96,7 +98,7 @@ public class Questao04 {
                     }
                     break;
 
-                case 5:
+                case 5: // Excluir um item da mochila
                     System.out.println("Digite o nome do item que deve ser excluído:");
                     String itemExcluir = teclado.next();
 
@@ -128,7 +130,7 @@ public class Questao04 {
 
                     break;
 
-                case 6:
+                case 6: // Sair do sistema
                     System.out.println("Encerrando o sistema.");
                     break;
 
